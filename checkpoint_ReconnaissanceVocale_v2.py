@@ -20,8 +20,7 @@ st.set_page_config(
 # ================== CONFIGURATION GEMINI ==================
 # Note: Idéalement, utilisez st.secrets ou une variable d'environnement
 # Pour ce checkpoint, on utilise la clé fournie
-GEMINI_API_KEY = "AIzaSyDjQI0HfJgGqFIlDaBsVcPJQuXJ9qB_2JI"
-genai.configure(api_key=GEMINI_API_KEY)
+
 
 # ================== DESIGN / UI (CSS) ==================
 st.markdown("""
