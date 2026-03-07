@@ -20,7 +20,7 @@ st.set_page_config(
 # ================== CONFIGURATION GEMINI ==================
 # Note: Idéalement, utilisez st.secrets ou une variable d'environnement
 # Pour ce checkpoint, on utilise la clé fournie
-GEMINI_API_KEY = "AIzaSyBWoMw_sHMBjJ5TT40LZR6ASaAg0igGnRg" 
+GEMINI_API_KEY = "AIzaSyDjQI0HfJgGqFIlDaBsVcPJQuXJ9qB_2JI"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ================== DESIGN / UI (CSS) ==================
@@ -63,7 +63,7 @@ st.markdown("""
     /* Amélioration des zones de texte (text_area) */
     .stTextArea textarea {
         background: rgba(255, 255, 255, 0.05) !important;
-        color: #f8fafc !important;
+        color: #000203 !important;
         border: 1px solid rgba(255, 255, 255, 0.2) !important;
         border-radius: 15px !important;
         padding: 15px !important;
