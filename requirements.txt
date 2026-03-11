@@ -4,3 +4,8 @@ ffmpeg-python
 google-generativeai
 pydub 
 gTTS 
+edge-tts
+PyMuPDF
+python-docx
+reportlab
+moviepy
